@@ -66,20 +66,20 @@ const CartItems = () => {
                 type="number"
                 className="cartitems-quantity"
                 value={e.quantity}
-                onChange={(e) => {
-                  setCart((prev) =>
-                    prev.map((item) => {
-                      // console.log(e.target.value)
-                      if (item.id == e.id) {
-                        return {
-                          ...item,
-                          quantity: item.quantity + e.target.value,
-                        };
-                      }
-                      return { ...item };
-                    })
-                  );
-                }}
+                // onChange={(e) => {
+                //   setCart((prev) =>
+                //     prev.map((item) => {
+                //       // console.log(e.target.value)
+                //       if (item.id == e.id) {
+                //         return {
+                //           ...item,
+                //           quantity: item.quantity + e.target.value,
+                //         };
+                //       }
+                //       return { ...item };
+                //     })
+                //   );
+                // }}
               />
               <button className="
               cartitems-quantity-button incrementbtn"
