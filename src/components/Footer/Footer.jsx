@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <hr />
-        <p> © 2024 - 2025 | JANGO SUPERSTORES | All Rights Reserved</p>
+        <p> Copyright © 2024 - 2025 | JANGO SUPERSTORES | All Rights Reserved</p>
       </div>
     </div>
   )
